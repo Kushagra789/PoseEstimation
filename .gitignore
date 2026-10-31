@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# Streamlit local config and secrets
+.streamlit/secrets.toml
+
+# Generated videos
+pose_result.mp4
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.m4v
+*.mpg
+*.mpeg
+*.wmv
+
+# YOLO model weights and run outputs (downloaded automatically by Ultralytics)
+*.pt
+*.pth
+*.onnx
+*.engine
+runs/
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
